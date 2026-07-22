@@ -1,11 +1,17 @@
-<script setup lang="ts">
-import Navbar from './components/Navbar.vue'
+<script setup>
+import { RouterView } from 'vue-router'
+import AppNavbar from './components/layout/AppNavbar.vue'
+import AppFooter from './components/layout/AppFooter.vue'
+import ChatbotWidget from './components/common/ChatbotWidget.vue'
 </script>
 
-
 <template>
-  <div class="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen">
-    <Navbar />
-    <router-view />
+  <div class="app-shell">
+    <AppNavbar />
+    <main class="site-main">
+      <RouterView />
+    </main>
+    <AppFooter />
+    <ChatbotWidget />
   </div>
 </template>

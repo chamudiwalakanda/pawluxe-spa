@@ -30,7 +30,7 @@ function subscribe() {
 
     <div class="container footer__grid">
       <div class="footer__brand">
-        <img src="/pawluxe-logo.svg" alt="PAWLUXE Sri Lanka" />
+        <img src="./assets/images/pawluxe-logo.png" alt="PAWLUXE Sri Lanka" />
         <p>Thoughtful products, practical dog-care guidance and friendly support for pet parents across Sri Lanka.</p>
         <div class="footer__socials" aria-label="Social media links">
           <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>

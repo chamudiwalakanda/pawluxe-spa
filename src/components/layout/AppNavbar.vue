@@ -42,7 +42,7 @@ watch(
 
     <nav class="navbar container" aria-label="Main navigation">
       <RouterLink class="navbar__brand" to="/" @click="closeMenu">
-        <img src="/pawluxe-logo.svg" alt="PAWLUXE Sri Lanka" />
+        <img src="./assets/images/pawluxe-logo.svg" alt="PAWLUXE Sri Lanka" />
       </RouterLink>
 
       <button

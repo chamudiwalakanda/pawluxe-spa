@@ -3,7 +3,7 @@ import { computed, reactive, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import SafeImage from '../components/common/SafeImage.vue'
 import { authenticateUser, findUserByEmail } from '../services/authService'
-import { registerUser, setCurrentUser } from '../store/appStore'
+import { registerUser, setCurrentUser } from '../store/appStore.js'
 import { provinces } from '../utils/shipping'
 
 const router = useRouter()
@@ -76,7 +76,7 @@ async function handleRegister() {
       <SafeImage src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=1400&q=82" fallback="/images/about-dog-owner.jpg" alt="Dog account experience" loading="eager" fetchpriority="high" />
       <div class="auth-page__shade"></div>
       <div class="auth-page__image-content">
-        <img src="/pawluxe-logo.svg" alt="PAWLUXE" />
+        <img src="./assets/images/pawluxe-logo.svg" alt="PAWLUXE" />
         <p class="eyebrow">Sri Lankan member experience</p><h1>Care, products and support in one account.</h1><p>Save your details, use the wishlist, manage your cart and place local demonstration orders.</p>
       </div>
     </div>

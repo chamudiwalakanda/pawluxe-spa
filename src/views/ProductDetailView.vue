@@ -5,7 +5,7 @@ import SafeImage from '../components/common/SafeImage.vue'
 import RatingStars from '../components/common/RatingStars.vue'
 import ProductCard from '../components/common/ProductCard.vue'
 import { getProductById, products } from '../data/products'
-import { addToCart, appState, isWishlisted, toggleWishlist } from '../store/appStore'
+import { addToCart, appState, isWishlisted, toggleWishlist } from '../store/appStore.js'
 import { calculateDiscount, formatLKR } from '../utils/formatters'
 
 const route = useRoute()

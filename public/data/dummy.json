@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "PAWLUXE Administrator",
+      "email": "admin@pawluxe.lk",
+      "password": "Admin123",
+      "role": "admin",
+      "phone": "+94 77 100 1000",
+      "city": "Colombo",
+      "province": "Western",
+      "dogName": "Atlas",
+      "dogBreed": "German Shepherd",
+      "joinedAt": "2025-01-05T08:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Nimal Perera",
+      "email": "nimal@example.com",
+      "password": "Pawluxe123",
+      "role": "customer",
+      "phone": "+94 77 234 1122",
+      "city": "Colombo",
+      "province": "Western",
+      "dogName": "Milo",
+      "dogBreed": "Golden Retriever",
+      "joinedAt": "2026-03-14T10:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Amaya Fernando",
+      "email": "amaya@example.com",
+      "password": "Pawluxe123",
+      "role": "customer",
+      "phone": "+94 76 441 2290",
+      "city": "Galle",
+      "province": "Southern",
+      "dogName": "Luna",
+      "dogBreed": "Beagle",
+      "joinedAt": "2026-04-02T06:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Kavindu Jayasinghe",
+      "email": "kavindu@example.com",
+      "password": "Pawluxe123",
+      "role": "customer",
+      "phone": "+94 71 772 1136",
+      "city": "Kandy",
+      "province": "Central",
+      "dogName": "Koda",
+      "dogBreed": "Sri Lankan Hound",
+      "joinedAt": "2026-04-21T12:05:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Tharushi Silva",
+      "email": "tharushi@example.com",
+      "password": "Pawluxe123",
+      "role": "customer",
+      "phone": "+94 75 640 2192",
+      "city": "Negombo",
+      "province": "Western",
+      "dogName": "Coco",
+      "dogBreed": "Poodle",
+      "joinedAt": "2026-05-09T09:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Dinuka Rathnayake",
+      "email": "dinuka@example.com",
+      "password": "Pawluxe123",
+      "role": "customer",
+      "phone": "+94 78 550 0188",
+      "city": "Kurunegala",
+      "province": "North Western",
+      "dogName": "Bruno",
+      "dogBreed": "Labrador Retriever",
+      "joinedAt": "2026-06-01T14:40:00.000Z"
+    }
+  ]
+}
